@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Federico J Bassi - Portfolio</title>
+
+    <!-- font del saludo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@1,700&family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <!-- font del separador skills -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@1,700&display=swap" rel="stylesheet">
+
+    <!-- font del footer -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@1,700&family=Dancing+Script:wght@500&family=Electrolize&display=swap" rel="stylesheet">
+    <!-- whatsapp flotante  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://argentinaprograma.inti.gob.ar/">
+                <img src="images/LogoArgProg.png" alt="logo argentina programa" width="120" class="d-inline-block align-text-top">
+            </a>
+        </div>
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#divContacto">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=#divSkills>Skills</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar bg-dark">
+
+    </nav>
+    <!-- <nav id="nav">
+        <ul id="listaNav">
+            <li class="contNav">
+                <a href="#nav"> | HOME |</a></li>
+            <li class="contNav">| ABOUT ME | </li>
+            <li class="contNav">
+                <a title="Envia un whatsapp" href="https://wa.me/+5492944617661" target="_blank ">| CONTACT |</a>
+            </li>
+            <li class="contNav">| SKILLS |</li>
+        </ul>
+    </nav> -->
+    <hr>
+    <header>
+        <h1 id="titulo" onMouseOver=cambiarPregunta() onMouseOut=volverAPreguntar()><b>¿Estas buscando un desarrollador Web?</b></h1>
+    </header>
+
+    <div id="contenedorFotoYSaludo">
+        <div id="divFotoPerfil">
+            <img id="fotoPerfil" src="css/foto perfil.jpg" alt="foto de perfil"> </div>
+        <div id="divSaludo" style="background-image:url('css/imagen-codigo-portada.jpg')">
+            <h2 id="saludo">
+                ¡ Hola , mi nombre es Federico J Bassi y soy desarrollador web !. </h2>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <hr>
+    <hr>
+    <div id="divSkills">
+        <p class="separador " id="tituloSkills"><b>Skills</b> </p>
+        <ul>
+            <li class="listaSkills item tres">
+                <img src="css/html5-logo.svg " class="logos "> HTML
+                <label for="file"> </label>
+                <progress id="file" max="100" value="70"> 70% </progress>
+            </li>
+            <li class="listaSkills item tres ">
+                <img src="css/css3-logo.svg " class="logos "> CSS
+                <label for="file"> </label>
+                <progress id="file" max="100" value="50"> 50% </progress></li>
+            <li class="listaSkills item tres ">
+                <img src="css/js-square-logo.svg " class="logos "> JS
+                <label for="file"> </label>
+                <progress id="file" max="100" value="70"> 70% </progress></li>
+            <li class="listaSkills item tres">
+                <img src="css/vuejs-logo.svg " class="logos  "> VUE
+                <label for="file"> </label>
+                <progress id="file" max="100" value="5"> comenzando</progress></li>
+        </ul>
+    </div>
+    <br>
+    <hr>
+    <hr>
+    <!-- tarjetas -->
+
+    <div class="card-group">
+        <div class="card bg-dark text-bg-dark">
+            <img src="images/giphy.gif" class="card-img-top" alt="codeo en JS">
+            <div class="card-body">
+                <h5 class="card-title">Proyecto en JS (POO)</h5>
+                <p class="card-text">Proyecto de sistema en JS para negocio de venta de computadoras y accesorios de PC</p>
+                <a href="https://github.com/festerico/ProyectosDeUdemy/blob/f06bf5cac0a5ccc315230926b244135b38cd313d/aplicacionDeSistemaPc.js" class="btn btn-primary">ver codigo</a>
+                <p class="card-text"><small class="text-muted">Last updated july, 2022</small></p>
+
+            </div>
+        </div>
+        <div class="card bg-dark text-bg-dark">
+            <img src="images/inglesarteImg.jpg" class="card-img-top" alt="imagen de pagina de inglesarte">
+            <div class="card-body">
+                <h5 class="card-title">Mi primer proyecto de pagina</h5>
+                <p class="card-text">
+                    <br>Este fue un primer trabajo que comencé a crear para el instituto de ingles que fundamos con mi familia hace unos años.</p>
+                <a href="https://inglesarte.netlify.app/index.html" class=" btn btn-primary ">visitar</a>
+                <p class="card-text "><small class="text-muted ">Last updated july, 2022</small></p>
+            </div>
+        </div>
+        <div class="card bg-dark text-bg-dark ">
+            <img src="images/EnConstruccion.jpg" class="card-img-top " alt="... ">
+            <div class="card-body ">
+                <h5 class="card-title ">Card title</h5>
+                <p class="card-text ">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text "><small class="text-muted ">Last updated july, 2022</small></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="row ">
+        <div class="col-sm-12 ">
+            <div class="card bg-dark text-bg-dark " style="width: 18rem; ">
+                <img src="giphy.gif " class="card-img-top " alt="animacion de codeo ">
+                <div class="card-body ">
+                    <h5 class="card-title ">Proyecto en JS</h5>
+                    <p class="card-text ">Proyecto de sistema en JS para negocio de venta de computadoras y accesorios de PC.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <br>
+    <hr>
+    <hr>
+    <div id="divContacto">
+        <p class="separador "><b id="tituloContact ">Contact</b></p>
+        <ul>
+            <li class="listaSkills ">
+                <a title="GitHub " href="https://github.com/festerico " target="_blank "><img src="css/github-logo.svg " alt="logo de GitHub " class="logosContact "></a>
+            </li>
+            <li class="listaSkills ">
+                <a title="Envia un whatsapp " href="https://wa.me/+5492944617661 " target="_blank "><img src="css/whatsapp-logo.svg " class="logosContact "></a>
+            </li>
+            <li class="listaSkills ">
+
+                <a title="Instagram personal, con mi otra pasión, el dibujo y la pintura, te invito a que la veas. " href="https://www.instagram.com/festerico86/ " target="_blank "><img src="css/instagram-logo.svg " class="logosContact "></a>
+            </li>
+            <li class="listaSkills ">
+                <a title="linkedin " href="https://www.linkedin.com/in/federico-j-bassi " target="_blank "><img src="css/linkedin-logo.svg " alt="logo de linkedin " class="logosContact "></a>
+            </li>
+    </div>
+    <br>
+    <hr>
+    <hr>
+    <div class="d-flex flex-column mb-3 col text-center">
+        <div id="infoFooterDiv " class="p-2">
+            <p id="infoDelFooter ">Federico J Bassi - Desarrollador Web. De Argentina para el mundo - 2022</p>
+        </div>
+        <div id="chuckId" class="p-2 col text-center">
+            <div>
+                <img src="images/chuck1.jpg" style="width:150px"> </div>
+            <div id="chuck">
+            </div>
+        </div>
+        <input type="button" value="Another news about Chuck" class="btn btn-outline-dark btn-sm" onclick="recargar()" />
+
+
+        <div id="circDiv " class="p-2">
+            <ul id="listaCirculos ">
+                <li class="circulos ">
+                    <div class="circulos-de-colores ">D</div>
+                </li>
+                <li class="circulos ">
+                    <div class="circulos-de-colores ">E</div>
+                </li>
+                <li class="circulos ">
+                    <div class="circulos-de-colores ">V</div>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+
+    <br>
+    <a href="https://wa.me/+5492944617661?text=Me%20gustaría%20hablar%20con%20vos%20para%20contarte%20sobre%20un%20empleo: " class="whatsapp " target="_blank "> <i class="fa fa-whatsapp whatsapp-icon "></i></a>
+    </footer>
+
+    <script src="js/Portf.js "></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js " integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa " crossorigin="anonymous "></script>
+</body>
+
+
+</html>

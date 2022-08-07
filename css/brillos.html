@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href='http://fonts.googleapis.com/css?family=Black+Ops+One' rel='stylesheet' type='text/css'>
+<title>Imágenes y textos con efecto brillo</title>
+<style type="text/css">
+body{
+
+	font-family: 'Black Ops One', cursive;
+	color:#333;
+	
+}
+.center{
+	position:absolute;
+	width:500px;
+	height:400px;
+	top:50%;
+	left:50%;
+	margin-left:-250px;
+	margin-top:-200px;	
+}
+.brillo{
+	position:relative;
+	margin: 0 auto;
+    display: block;
+	font-size:70px;
+	height: 70px;
+	width: 445px;	
+	text-decoration:none;
+	color:#333;
+	overflow:hidden;
+	margin-bottom:50px;	
+}
+.brillo span{
+	position:relative;
+	display: block;
+	background:url(brillo.png) no-repeat;	
+	background-position: -100px 0px;
+	margin-top:-75px;
+	height: 51px;
+	width: 445px;	
+}
+.brillo:hover span{
+	background-position: 500px 0px;
+	-webkit-transition-property: all;
+	-webkit-transition-duration: 1s;
+	transition-property: all;
+	transition-duration: 1s;
+}
+.brillog{
+	position:relative;
+	margin: 0 auto;
+    display: block;
+	height: 133px;
+	width: 132px;	
+	text-decoration:none;
+	overflow:hidden;
+}
+.brillog span{
+	position:relative;
+	display: block;
+	background:url(brillog.png) no-repeat;	
+	background-position: -300px 0px;
+	margin-top:-137px;
+	height: 133px;
+	width: 132px;	
+}
+.brillog:hover span{
+	background-position: 300px 0px;
+	-webkit-transition-property: all;
+	-webkit-transition-duration: 1.5s;
+	transition-property: all;
+	transition-duration: 1.5s;
+}
+</style>
+</head>
+<body>
+<div class="center">
+
+		<a href="https://mmteam.controldedominios.com/entradaBlog.asp?blog=3&cod=57" class="brillo">BRILLANDO<span></span></a>
+		<a href="#" class="brillog"><img src="./logocss.png" alt="css"  /><span></span></a>
+
+ 
+</div>
+
+</body>
+</html>
